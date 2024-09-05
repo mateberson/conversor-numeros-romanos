@@ -28,6 +28,6 @@ Para representar outros números, os romanos combinavam estes símbolos, començ
 
 ## Alguns Exemplos
 
-`XV` representa 15 (10 + 5);
-`XXVIII` representa 28 (10 + 10 + 5 + 1 + 1 + 1);
-`IIL` representa 48 (50 - 1 - 1)
+* `XV` representa 15 (10 + 5);
+* `XXVIII` representa 28 (10 + 10 + 5 + 1 + 1 + 1);
+* `IIL` representa 48 (50 - 1 - 1)
