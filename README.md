@@ -1,27 +1,33 @@
 # ConversorNumerosRomanos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.18.
+Este projeto tem como missão realizar os primeiros passos na jornada de uso do Desenvolvimento Orientado a Teste.
 
-## Development server
+# Premissa
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Esta aplicação será usada para realizar a conversão de uma valor em texto `string` correspondente aos números romanos em um valor númerico.
 
-## Code scaffolding
+## Paramêtros Base
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Numerais romanos foram criados na Roma Antiga e eles foram utilizados em todo o seu império. A tabela abaixo apresenta os sete diferentes símbolos romanos conhecidos e suas correlações númericas:
 
-## Build
+* `I`, unus, 1 (um)
+* `V`, quinque, 5 (cinco)
+* `X`, decem, 10 (dez)
+* `L`, quinquaginta, 50 (cinquenta)
+* `C`, centum, 100 (cem)
+* `D`, quingenti, 500 (quinhentos)
+* `M`, mille, 1000 (mil)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Regras Básicas
 
-## Running unit tests
+Para representar outros números, os romanos combinavam estes símbolos, començando do algarismo de maior valor e seguindo as seguintes regras:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Algarismos de menor valor ou igual valor á direita são somados ao algarismo de maior valor;
+* Algarismos de menor valor à esquerda são subtraídos do algarismo de maior valor;
+* Nenhum algarismo pode ser repedimos lado a lado por mais do que 3 vezes.
 
-## Running end-to-end tests
+## Alguns Exemplos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+`XV` representa 15 (10 + 5);
+`XXVIII` representa 28 (10 + 10 + 5 + 1 + 1 + 1);
+`IIL` representa 48 (50 - 1 - 1)
